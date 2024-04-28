@@ -22,18 +22,18 @@ export function ParticleBackground() {
     document.getElementById("three-container")!.appendChild(renderer.domElement);
 
     // Define parameters for the fire sparks
-    const numParticles = 4000;
+    const numParticles = 8000;
 
-    const colors = ["#dc2626", "#ef4444", "#c2410c", "#ea580c", "#fb923c"]
+    const colors = ["#ef4444", "#f59e0b", "#fb923c"]
 
     const minSize = 0.175;
-    const maxSize = 0.35;
+    const maxSize = 0.3;
 
     const minSpeed = 0.0175;
     const maxSpeed = 0.125;
 
     const minHorizontalSpeed = -0.015;
-    const maxHorizontalSpeed = 0.04;
+    const maxHorizontalSpeed = 0.05;
 
     const depthLayers = 2;
 
